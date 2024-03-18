@@ -57,6 +57,7 @@ def instructions():
     print("Type 'add' to add a student")
     print("Type 'update' to update student email")
     print("Type 'delete' to delete a student")
+    print("Type 'clear' to flush the terminal")
     print("Type 'help' for instructions")
     print("Type 'exit' to exit program\n")
 

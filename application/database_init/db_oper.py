@@ -23,9 +23,8 @@ def clear_student_relations():
     #Setting up database connection
     conn, cur = connect_to_database()
 
-    #executing the query to delete all entries from database and reset the SERIAL student id
-    cur.execute("""DELETE FROM students""")
-    cur.execute("""ALTER SEQUENCE students_student_id_seq RESTART WITH 1""")
+    #executing the query to delete the relation
+    cur.execute("""DROP TABLE IF EXISTS students""")
 
     # Commiting the change to the database
     conn.commit()
