@@ -16,6 +16,7 @@ def create_students_relation():
 def clear_student_relations():
     conn, cur = connect_to_database()
     cur.execute("""DELETE FROM students""")
+    cur.execute("""ALTER SEQUENCE students_student_id_seq RESTART WITH 1""")
     conn.commit()
     close_connection(conn, cur)
 
