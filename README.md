@@ -7,7 +7,7 @@ the user to get students, add student, update student emails and delete student 
 relation 
 
 ## Video Demo
-Video demo showcasing the use of application: https://youtu.be/O65Ay6jHdv0
+Video demo showcasing the use of application: https://youtu.be/APSPQPX-X7U
 
 ## Versioning:
 - Python 3.12.2
