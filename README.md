@@ -5,6 +5,10 @@ It contains an application to preform basic CRUD tasks on a sample students rela
 The application will create and populate a relation with 3 exisiting students and allow <br/>
 the user to get students, add student, update student emails and delete student from the <br/>
 relation 
+
+## Video Demo
+Video demo showcasing the use of application: https://youtu.be/O65Ay6jHdv0
+
 ## Versioning:
 - Python 3.12.2
 - psycopg2 2.9.9
